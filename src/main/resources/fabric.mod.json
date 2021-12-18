@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nolancheating",
+  "version": "${version}",
+  "name": "No LAN Cheating!",
+  "description": "Port of “No LAN Cheating” to Fabric 1.18.x",
+  "authors": [
+    "nokko"
+  ],
+  "contact": {
+    "homepage": "https://nokko.me/",
+    "sources": "https://github.com/nok-ko/NoLANCheatingFabric/"
+  },
+  "license": "Mozilla Public License v. 2.0 – see LICENSE file",
+  "icon": "assets/keepinventory-command/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.nokko.nolancheating.NoLANCheating"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x"
+  },
+  "suggests": {
+  }
+}
